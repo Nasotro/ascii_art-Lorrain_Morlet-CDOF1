@@ -46,10 +46,34 @@ python images_ascii.py
 * [python 3.11.4](https://www.python.org/downloads/release/python-3110/) - The verison of python used for this project.
 * [openCV](https://opencv.org/) - Image processing library.
 
-## Contributing
+## How to Contribute
+1. **Fork the repository:**
+    Click the "Fork" button on the top right of the repository page.
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+2. **Clone your forked repository:**
+    ```bash
+    git clone https://github.com/yourusername/game_of_life-Julien-CDOF2.git
+    cd game_of_life-Julien-CDOF2
+    ```
 
+3. **Create a new branch for your feature or bugfix:**
+    ```bash
+    git checkout -b feature-or-bugfix-name
+    ```
+
+4. **Make your changes and commit them:**
+    ```bash
+    git add .
+    git commit -m "Description of your changes"
+    ```
+
+5. **Push your changes to your forked repository:**
+    ```bash
+    git push origin feature-or-bugfix-name
+    ```
+
+6. **Create a pull request:**
+    Go to the original repository and click on the "New Pull Request" button. Provide a clear description of your changes and submit the pull request.
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Nasotro/ascii_art-Lorrain_Morlet-CDOF1/tags). 
