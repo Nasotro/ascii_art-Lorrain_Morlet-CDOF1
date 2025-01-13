@@ -5,6 +5,12 @@ import numpy as np
 image_path = 'images/monalisa.jpg'
 image = cv2.imread(image_path)
 
+#Check that the image was successfully loaded
+if image is None:
+    print("Error: Image not found!")
+else:
+    print("Image loaded successfully!")
+
 # Convert the image to grayscale
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
