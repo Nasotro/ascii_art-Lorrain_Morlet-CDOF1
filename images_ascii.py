@@ -12,7 +12,7 @@ gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 intensity_matrix = np.array(gray_image)
 
 # Define the ASCII characters to represent different intensity levels
-densities = " ░▒▓█"
+densities = " .:-=+*#%@"
 
 # Normalize the intensity matrix to the range of the densities length
 intensity_matrix = intensity_matrix / (intensity_matrix.max() / (len(densities) -1))
